@@ -1,10 +1,16 @@
-body{
-background:red;
+body {
+  background: #040720!important;
 }
 
+div {
+  background-color: #333!important;
+}
 
+h1 {
+  color: #f3f3f3;
+}
 
-.text-center{
-	text-align:center;
-	color:white;
+button {
+	background-color: royalblue;
+	color: #f3f3f3;
 }
