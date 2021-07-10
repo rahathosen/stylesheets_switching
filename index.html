@@ -1,0 +1,40 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>stylesheets_switching</title>
+   
+	
+   <link id="link" rel="stylesheet" type="text/css" href="css/light.css" />
+		
+		
+		<script>
+        function toggleTheme() {
+
+            if (link.getAttribute('href') == 'css/light.css') {
+                link.setAttribute('href', 'css/dark.css');
+            } else {
+                link.setAttribute('href', 'css/light.css');
+            }
+        }
+    </script>
+    
+</head>
+<!----------------------------------------------------------body------------------------------------------------------------------------------->
+<body>
+ 
+  <h2 class="text-center">Hello World!</h2>   
+ 
+  <button  onclick="toggleTheme()">Click</button>
+	
+	
+	
+
+
+
+</body>
+<!------------------------------------------------------------end body----------------------------------------------------------------------------->
+</html>
+
